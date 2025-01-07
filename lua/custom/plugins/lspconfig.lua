@@ -220,7 +220,7 @@ return {
         },
       }
       require('lspconfig')['clangd'].setup {
-        cmd = { 'clangd' },
+        cmd = { 'clangd', '--offset-encoding=utf-16' },
       }
 
     end,
