@@ -24,6 +24,7 @@ return {
       require('which-key').add {
         { "<leader>c", group = "[C]ode" },
         { "<leader>d", group = "[D]ocument" },
+        { "<leader>g", group = "[G]itHub" },
         { "<leader>h", group = "Git [H]unk" },
         { "<leader>r", group = "[R]ename" },
         { "<leader>s", group = "[S]earch" },
